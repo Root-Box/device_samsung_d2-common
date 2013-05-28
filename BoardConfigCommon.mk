@@ -29,6 +29,7 @@ USE_CAMERA_STUB := true
 -include device/samsung/msm8960-common/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH := device/samsung/d2-common/include
+TARGET_GCC_VERSION := 4.7
 
 # Kernel
 TARGET_KERNEL_SOURCE        := kernel/samsung/d2
